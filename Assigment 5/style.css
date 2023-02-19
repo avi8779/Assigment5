@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #111827;
+}
+section{
+    padding: 10px;
+    cursor: pointer;
+}
+.header ul{
+    display: flex;
+    align-items: center;
+    float: right;
+}
+.header ul li{
+    color: white;
+    list-style: none;
+    padding: 10px 15px;
+}
+.home{
+    border: 1px solid black;
+    background-color: rgb(135, 55, 209);
+    border-radius: 20px;
+}
+.img1{
+    width: 20%;
+    float: right;
+    padding: 0px 10px;
+    position: relative; 
+    right: 450px;
+    cursor: pointer; 
+}
+.left{
+    position: relative;
+    left: 355px;
+    top: 140px;
+    cursor: pointer;
+}
+.left p{
+    font-size: 17px;
+    font-weight: 600;
+    color: white;
+}
+.left h3{
+    font-size: 23px;
+    font-weight: 700;
+    color: white;
+}
+.left span{
+    font-size: 17px;
+    font-weight: 600;
+    color: greenyellow;
+}
+.main1 h3{
+    border-bottom: 5px solid blue;
+    border-radius: 2px;
+    display: inline;
+}
+.main1 h3{
+    position: relative;
+    left: 45%;
+    top: 225px;
+    color: white;
+    cursor: pointer;
+}
+.left-project{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    row-gap: 10px;
+    column-gap: 10px;
+    padding: 250px;
+    position: relative;
+    left: 100px;
+}
+.left-project p{
+    color: white;
+}
+img[alt="hello"]{
+    height: 45px;
+}
+img[alt="pc-image"]{
+    width: 30vw;
+}
+img[alt="project-image"]{
+    width: 20vw;
+}
+    
+.projec{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.project-footer{
+    padding: 15px 20px;
+}
+.project-footer img{
+    width: 10%;
+    padding: 5px 1px;
+    position: relative;
+    left: 100%;
+}
+.footer h1{
+    border-bottom:5px solid blue;
+    border-radius: 2px;
+    display: inline;
+}
+.footer h1{
+    position: relative;
+    left: 70%;
+    color: white;
+}
